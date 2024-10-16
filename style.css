@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
+:root {
+    --rosa:#ff8da0;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@
 }
 
 ::selection {
-    background-color: pink; 
+    background-color: var(--rosa); 
     color: black; 
 }
 
@@ -68,8 +72,8 @@ p {
 }
 
 .links a:hover {
-    color:pink;
-    border: 1px solid pink;
+    color:var(--rosa);
+    border: 1px solid var(--rosa);
     transition: .5s;
 }
 
@@ -85,7 +89,7 @@ p {
 
 .next-page i {
     font-size: 2rem;
-    color: pink;
+    color: var(--rosa);
 }
 
 @keyframes bounce {
