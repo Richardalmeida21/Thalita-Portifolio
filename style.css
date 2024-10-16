@@ -119,6 +119,10 @@ a{
     font-weight: 500;
 }
 
+.maps a {
+    margin-bottom: 1rem;
+}
+
 .mapa {
     width: 90%;
     height: 30vh;
